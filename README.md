@@ -10,6 +10,7 @@ Welcome to my personal portfolio! This site showcases my work, skills, and proje
 
 ## 🌐 Live Demo
 🔗 Check out the live version of my portfolio **[here](#)**.
+NOTE: THE LIVE VERSION ISN'T READY YET!
 
 ## 🛠️ Installation
 If you'd like to run this portfolio locally:
