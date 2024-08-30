@@ -1,1 +1,92 @@
+$bgcolor: #F6F6F7;
+$headerColor: #FFFFFF;
+$primaryColor: #163252;
+$secondaryColor: #81E5E5;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $bgcolor;
+}
+
+header {
+    position: fixed;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: $headerColor;
+
+    .logo {
+        padding-top: 10px;
+        cursor: pointer;
+        h2 {
+            font-family: "Work Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            color: rgb(26, 25, 25);
+            font-style: normal;
+            cursor: pointer;
+        }
+        p{
+            font-weight: 500;
+        }
+    }
+
+    nav {
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            list-style: none;
+            display: flex;
+            padding-top: 25;
+            margin-right: 100px;
+            justify-content: space-between;
+            width: 460px;
+
+            li {
+                #important{
+                    color: rgb(0, 0, 0);
+                    background-color: $secondaryColor;
+                    transition: 1s;
+                    
+                }
+                &:hover{
+                    transform: scale(101%);
+                }
+                a {
+                    text-decoration: none;
+                    color: $primaryColor;
+                    font-family: "Work Sans", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 600;
+                    transition: 0.5s;
+                    padding: 10px 20px;
+                    font-style: normal;
+                    &:hover{
+                    
+                        color:  $headerColor;
+                        background-color: $primaryColor;
+                      
+                    }
+                }
+            }
+        }
+    }
+
+}
