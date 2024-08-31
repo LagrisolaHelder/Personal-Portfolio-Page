@@ -3,6 +3,7 @@ $headerColor: #FFFFFF;
 $primaryColor: #163252;
 $secondaryColor: #81E5E5;
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moulpali&display=swap');
 
 * {
     padding: 0;
@@ -37,13 +38,17 @@ header {
         h2 {
             font-family: "Work Sans", sans-serif;
             font-optical-sizing: auto;
-            font-weight: 600;
-            color: rgb(26, 25, 25);
+            font-weight: 800;
+           color: rgb(29, 29, 29);
+            text-align: center;
+            letter-spacing: -1;
             font-style: normal;
             cursor: pointer;
         }
         p{
             font-weight: 500;
+            letter-spacing: -1;
+            text-align: center;
         }
     }
 
@@ -58,6 +63,7 @@ header {
             margin-right: 100px;
             justify-content: space-between;
             width: 460px;
+            letter-spacing: -1;
 
             li {
                 #important{
@@ -68,6 +74,7 @@ header {
                 }
                 &:hover{
                     transform: scale(101%);
+                   
                 }
                 a {
                     text-decoration: none;
@@ -81,6 +88,7 @@ header {
                     &:hover{
                     
                         color:  $headerColor;
+                        box-shadow: inset 3px 0px 0px rgb(0, 0, 0);
                         background-color: $primaryColor;
                       
                     }
