@@ -80,4 +80,19 @@ header nav ul li a:hover {
   color: #FFFFFF;
   box-shadow: inset 3px 0px 0px rgb(0, 0, 0);
   background-color: #163252;
+}
+
+.intro {
+  height: 100 .intro;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.intro h3 {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  padding: 20px 20px;
+  max-width: 650px;
 }/*# sourceMappingURL=style.css.map */
